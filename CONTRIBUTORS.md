@@ -59,6 +59,13 @@ These amazing people have contributed code, documentation, or significant improv
   - Created `docs/codebuddy.md` installation guide
   - **Impact:** Expands IDE support to CodeBuddy ecosystem
 
+- **[@EListenX](https://github.com/EListenX)** (Yi Chenxi) - [PR #112](https://github.com/OthmanAdi/planning-with-files/pull/112)
+  - Added full Kiro Agent Skill support under `.kiro/skills/planning-with-files/`
+  - Created bootstrap scripts, steering integration with `#[[file:]]` live references
+  - Replaced old `.kiro/scripts/` and `.kiro/steering/` with proper Agent Skill layout
+  - Updated Cursor and Mastra Code hooks, improved docs/kiro.md
+  - **Impact:** Brings Kiro IDE support to production quality with native Agent Skill format
+
 - **[@lincolnwan](https://github.com/lincolnwan)** - [PR #80](https://github.com/OthmanAdi/planning-with-files/pull/80)
   - Added native GitHub Copilot hooks integration using the early 2026 hooks system
   - Created `.github/hooks/planning-with-files.json` with full hook scripts in `.github/hooks/scripts/`
@@ -111,6 +118,10 @@ These amazing people have contributed code, documentation, or significant improv
   - Added early return guards for non-planning projects
   - Thorough bug report with root cause analysis
   - **Impact:** Eliminates noise from false catchup reports
+
+- **[@waynelee2048](https://github.com/waynelee2048)** - [PR #113](https://github.com/OthmanAdi/planning-with-files/pull/113)
+  - Added Traditional Chinese (zh-TW) skill variant with fully translated SKILL.md, templates, and scripts
+  - Includes localized hooks, check-complete, init-session, and session-catchup scripts
 
 - **[@tobrun](https://github.com/tobrun)** - [PR #3](https://github.com/OthmanAdi/planning-with-files/pull/3)
   - Early directory structure improvements
@@ -174,6 +185,6 @@ If you've contributed and don't see your name here, please open an issue! We wan
 
 ---
 
-**Total Contributors:** 25+ and growing!
+**Total Contributors:** 26+ and growing!
 
-*Last updated: March 4, 2026*
+*Last updated: March 22, 2026*
