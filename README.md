@@ -42,18 +42,20 @@ See the full list of everyone who made this project better in [CONTRIBUTORS.md](
 <details>
 <summary><strong>📦 Releases & Session Recovery</strong></summary>
 
-### Current Version: v2.26.2
+### Current Version: v2.29.0
 
 | Version | Highlights |
 |---------|------------|
-| **v2.26.2** | Fix: `---` in hook commands broke YAML frontmatter parsing — hooks now register correctly |
-| **v2.26.1** | Fix: session catchup after `/clear` — path sanitization on Windows + content injection (thanks @tony-stark-eth!) |
+| **v2.29.0** | Analytics workflow template: `--template analytics` flag for data exploration sessions (thanks @mvanhorn!) |
+| **v2.28.0** | Traditional Chinese (zh-TW) skill variant (thanks @waynelee2048!) |
+| **v2.26.2** | Fix: `---` in hook commands broke YAML frontmatter parsing, hooks now register correctly |
+| **v2.26.1** | Fix: session catchup after `/clear`, path sanitization on Windows + content injection (thanks @tony-stark-eth!) |
 | **v2.26.0** | IDE audit: Factory hooks, Copilot errorOccurred hook, Gemini hooks, bug fixes |
 | **v2.18.2** | Mastra Code hooks fix (hooks.json + docs accuracy) |
 | **v2.18.1** | Copilot garbled characters complete fix |
 | **v2.18.0** | BoxLite sandbox runtime integration |
 | **v2.17.0** | Mastra Code support + all IDE SKILL.md spec fixes |
-| **v2.16.1** | Copilot garbled characters fix — PS1 UTF-8 encoding + bash ensure_ascii (thanks @Hexiaopi!) |
+| **v2.16.1** | Copilot garbled characters fix: PS1 UTF-8 encoding + bash ensure_ascii (thanks @Hexiaopi!) |
 | **v2.16.0** | GitHub Copilot hooks support (thanks @lincolnwan!) |
 | **v2.27.0** | Kiro Agent Skill layout (thanks @EListenX!) |
 | **v2.15.1** | Session catchup false-positive fix (thanks @gydx6!) |
@@ -152,7 +154,7 @@ A Claude Code plugin that transforms your workflow to use persistent markdown fi
 [![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-Hooks-000000)](https://docs.github.com/en/copilot/reference/hooks-configuration)
 [![Mastra Code](https://img.shields.io/badge/Mastra%20Code-Skills-00BCD4)](https://code.mastra.ai)
 [![BoxLite](https://img.shields.io/badge/BoxLite-Sandbox-6C3483)](https://boxlite.ai)
-[![Version](https://img.shields.io/badge/version-2.26.2-brightgreen)](https://github.com/OthmanAdi/planning-with-files/releases)
+[![Version](https://img.shields.io/badge/version-2.29.0-brightgreen)](https://github.com/OthmanAdi/planning-with-files/releases)
 [![SkillCheck Validated](https://img.shields.io/badge/SkillCheck-Validated-4c1)](https://getskillcheck.com)
 
 ## Quick Install

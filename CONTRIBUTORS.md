@@ -82,6 +82,13 @@ These amazing people have contributed code, documentation, or significant improv
   - Added Pi Agent support with full skill integration
   - **Impact:** Expands the skill to the Pi Agent ecosystem
 
+- **[@mvanhorn](https://github.com/mvanhorn)** (Matt Van Horn) - [PR #115](https://github.com/OthmanAdi/planning-with-files/pull/115)
+  - Added analytics workflow template with `--template analytics` flag on `init-session.sh` and `init-session.ps1`
+  - Created `analytics_task_plan.md` with 4 analytics-specific phases (Data Discovery, Exploratory Analysis, Hypothesis Testing, Synthesis)
+  - Created `analytics_findings.md` with Data Sources table, Hypothesis Log, Query Results, and Statistical Findings sections
+  - Analytics-specific `progress.md` with Query Log replacing Test Results
+  - **Impact:** Extends the planning pattern to data analytics workflows (addresses #103)
+
 ### Other Contributors
 
 - **[@popey](https://github.com/popey)** - [PR #83](https://github.com/OthmanAdi/planning-with-files/pull/83)
@@ -185,6 +192,6 @@ If you've contributed and don't see your name here, please open an issue! We wan
 
 ---
 
-**Total Contributors:** 26+ and growing!
+**Total Contributors:** 27+ and growing!
 
-*Last updated: March 22, 2026*
+*Last updated: March 24, 2026*

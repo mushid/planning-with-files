@@ -2,6 +2,43 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.29.0] - 2026-03-24
+
+### Added
+
+- **Analytics workflow template** (PR #115 by @mvanhorn, addresses #103)
+  - New `--template analytics` flag on `init-session.sh` and `init-session.ps1`
+  - `templates/analytics_task_plan.md` with 4 analytics-specific phases: Data Discovery, Exploratory Analysis, Hypothesis Testing, Synthesis
+  - `templates/analytics_findings.md` with Data Sources table, Hypothesis Log, Query Results, and Statistical Findings sections
+  - Analytics-specific `progress.md` generates a Query Log table instead of Test Results
+  - Default behavior unchanged; existing users are not affected
+
+### Usage
+
+```bash
+./scripts/init-session.sh --template analytics my-project
+```
+
+### Thanks
+
+- @mvanhorn (Matt Van Horn) for implementing the analytics template that @sedlukha requested in #103
+
+---
+
+## [2.28.0] - 2026-03-22
+
+### Added
+
+- **Traditional Chinese (zh-TW) skill variant** (PR #113 by @waynelee2048)
+  - Fully translated SKILL.md, templates, and scripts under `skills/planning-with-files-zht/`
+  - Localized hooks, check-complete, init-session, and session-catchup scripts
+
+### Thanks
+
+- @waynelee2048 for the Traditional Chinese translation
+
+---
+
 ## [2.27.0] - 2026-03-20
 
 ### Added
